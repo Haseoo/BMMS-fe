@@ -1,7 +1,7 @@
 import './App.css';
 import Main from './main/Main';
-import { BrowserRouter, Route, Routes, Link, withRouter, Router, useLocation } from 'react-router-dom';
-import Materials from './materials/Materials';
+import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
+import { Materials } from './materials/Materials';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -19,7 +19,7 @@ const Header = props => {
   }
   return (
     <header>
-      <Navbar bg="dark" variant="dark" expand="lg">
+      <Navbar bg="dark shadow" variant="dark" expand="lg">
         <Container>
           <Navbar.Brand href="/">BBMS</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
