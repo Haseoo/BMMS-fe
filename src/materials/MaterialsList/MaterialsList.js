@@ -3,7 +3,6 @@ import Form from 'react-bootstrap/Form';
 import Stack from 'react-bootstrap/Stack';
 export const MaterialsList = (props) => {
     const materials = props.materials;
-    console.log(materials);
     return (
         <>
          <Stack direction="horizontal" gap={3}>
