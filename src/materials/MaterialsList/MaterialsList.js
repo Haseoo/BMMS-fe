@@ -1,8 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Stack from 'react-bootstrap/Stack';
-export const MaterialsList = (props) => {
-    const materials = props.materials;
+export const MaterialsList = ({ materials }) => {
     return (
         <>
          <Stack direction="horizontal" gap={3}>

@@ -8,6 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { useState } from 'react';
 import { LinkContainer } from "react-router-bootstrap";
+import { Toaster } from 'react-hot-toast';
 
 
 
@@ -57,6 +58,7 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
+      <Toaster position='top-right' />
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/materials" element={<Materials />} />
